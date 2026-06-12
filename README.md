@@ -1,9 +1,9 @@
-# homebrew-gmr
+# homebrew-postgres
 
-Homebrew tap for [gmr](https://github.com/gmr)'s tools.
+Homebrew tap for [gmr](https://github.com/gmr)'s PostgreSQL tools.
 
 ```bash
-brew tap gmr/gmr
+brew tap gmr/postgres
 ```
 
 | Formula | Description |
@@ -20,7 +20,7 @@ brew install pglifecycle
 > Homebrew 6.0 added [tap trust](https://docs.brew.sh/Tap-Trust), and some
 > versions fail to install third-party taps inside the build sandbox (the
 > error mentions `build.rb ... exited with 1`). If you hit this, trust the
-> formula first (e.g. `brew trust --formula gmr/gmr/pgfmt`), or set
+> formula first (e.g. `brew trust --formula gmr/postgres/pgfmt`), or set
 > `HOMEBREW_NO_REQUIRE_TAP_TRUST=1` for the install.
 
 Formulas are updated automatically by each project's release workflow.
