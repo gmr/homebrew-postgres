@@ -10,10 +10,12 @@ brew tap gmr/postgres
 | --- | --- |
 | [`pgfmt`](https://github.com/gmr/pgfmt) | PostgreSQL SQL formatter |
 | [`pglifecycle`](https://github.com/gmr/pglifecycle) | PostgreSQL schema management tool |
+| [`postgres-lsp`](https://github.com/gmr/postgres-lsp) | Language Server for PostgreSQL and PL/pgSQL |
 
 ```bash
 brew install pgfmt
 brew install pglifecycle
+brew install postgres-lsp
 ```
 
 > [!NOTE]
