@@ -1,28 +1,28 @@
 class Pgfmt < Formula
   desc "A PostgreSQL SQL formatter"
   homepage "https://github.com/gmr/pgfmt"
-  version "2.1.7"
+  version "2.1.8"
   license "BSD-3-Clause"
 
   on_macos do
     on_arm do
-      url "https://github.com/gmr/pgfmt/releases/download/v2.1.7/pgfmt-aarch64-apple-darwin.tar.gz"
-      sha256 "fc0c0c5763f241702ee2a441de0324d07902fe43b4d1ac6ad8fed0229abd4772"
+      url "https://github.com/gmr/pgfmt/releases/download/v2.1.8/pgfmt-aarch64-apple-darwin.tar.gz"
+      sha256 "8b08bc3e22caa845283640b154a1888725f33a3b8ef3b0adb1d3356ae7e1262c"
     end
     on_intel do
-      url "https://github.com/gmr/pgfmt/releases/download/v2.1.7/pgfmt-x86_64-apple-darwin.tar.gz"
-      sha256 "fdaac8c199a6572e18de647c6948df7cc6c7d92c740a59382b3bfaf148fb35dc"
+      url "https://github.com/gmr/pgfmt/releases/download/v2.1.8/pgfmt-x86_64-apple-darwin.tar.gz"
+      sha256 "f585dc87340a05f76730e51a45dc0aa137e63a14c609e774973cd4b8d774da66"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/gmr/pgfmt/releases/download/v2.1.7/pgfmt-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fe3c1863374a6f1fb48982f2b21719294f0f7dd4b66b64afbe2378f3c2ac8934"
+      url "https://github.com/gmr/pgfmt/releases/download/v2.1.8/pgfmt-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c4392ac6e3c8c8bf88946ebfffcf4b13b5b77228679b2f182ebd8d20f29546d8"
     end
     on_intel do
-      url "https://github.com/gmr/pgfmt/releases/download/v2.1.7/pgfmt-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ef32f7e74b8fd9261224835c4df33383963cb457176155400e77e9db8808e6f5"
+      url "https://github.com/gmr/pgfmt/releases/download/v2.1.8/pgfmt-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ad0c654bf8321b29a557f20dfa6a1deb78e1ed4c79a6ad22653fff4e8f517277"
     end
   end
 
