@@ -1,28 +1,28 @@
 class Pglifecycle < Formula
   desc "PostgreSQL schema management tool"
   homepage "https://github.com/gmr/pglifecycle"
-  version "2.0.0-alpha.2"
+  version "2.0.0-beta.1"
   license "BSD-3-Clause"
 
   on_macos do
     on_arm do
-      url "https://github.com/gmr/pglifecycle/releases/download/2.0.0-alpha.2/pglifecycle-aarch64-apple-darwin.tar.gz"
-      sha256 "b073cebf9a30d059b6c030d4fb426bf923452a42eb061ed886a3f9067bbbc6d1"
+      url "https://github.com/gmr/pglifecycle/releases/download/2.0.0-beta.1/pglifecycle-aarch64-apple-darwin.tar.gz"
+      sha256 "b4d0b24a9f1eea4ad184cd98aaa3eaba96fc683a6aac039a8a0174500ebd5f6f"
     end
     on_intel do
-      url "https://github.com/gmr/pglifecycle/releases/download/2.0.0-alpha.2/pglifecycle-x86_64-apple-darwin.tar.gz"
-      sha256 "5298358116470a242c39ebbae65fcaa47a109502adc5fb2a650b87078d2f0765"
+      url "https://github.com/gmr/pglifecycle/releases/download/2.0.0-beta.1/pglifecycle-x86_64-apple-darwin.tar.gz"
+      sha256 "bd47ebd93584157d25bc5267e65f3d1eb6f083bedc6941545a95f4904b26423d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/gmr/pglifecycle/releases/download/2.0.0-alpha.2/pglifecycle-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9a7833ec05b99e7aff5ba04f0f0da22cb295f8e26e5bda82c69fb429755e283e"
+      url "https://github.com/gmr/pglifecycle/releases/download/2.0.0-beta.1/pglifecycle-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5f0e212cf839751108363b054c381ac2a35ddeca0c129a1400a4633a231e8fa8"
     end
     on_intel do
-      url "https://github.com/gmr/pglifecycle/releases/download/2.0.0-alpha.2/pglifecycle-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9367b187bf51504ea2b3b64910e55c4a9ad1947c9c2f33e933cb895ee9c1c289"
+      url "https://github.com/gmr/pglifecycle/releases/download/2.0.0-beta.1/pglifecycle-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7e66700f3ead2a4620dc9d0ddfeba4a670733270d2a15e4156261ef4c45aa99e"
     end
   end
 
